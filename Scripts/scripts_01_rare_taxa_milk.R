@@ -42,3 +42,4 @@ p <- ggplot(plot_data, aes(x = SampleID, y = Abundance, fill = Species)) +
 
 print(p)
 ggsave(file.path(OUT_FIG, "01_rare_taxa_milk.png"), p, width = 14, height = 7, dpi = 600)
+
